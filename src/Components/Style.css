@@ -1,0 +1,306 @@
+html,
+body {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+    width: 100%;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.nav-link {
+    font-family: 'Gideon Roman', cursive;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff !important;
+    text-align: left;
+    margin-right: 10px;
+    margin-top: -5px;
+    transition-timing-function: linear;
+    transition: 1s ease-in-out;
+    width: 120px;
+}
+
+.nav-link:hover {
+    font-family: 'Gideon Roman', cursive;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff !important;
+}
+
+.nav-link-black {
+    font-family: 'Gideon Roman', cursive;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000 !important;
+    text-align: left;
+    margin-right: 30px;
+    margin-top: 10px;
+    transition-timing-function: linear;
+    transition: 1s ease-in-out;
+}
+
+.nav-link-black:hover {
+    font-family: 'Gideon Roman', cursive;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navigation_dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #00405d;
+    /* color: rgba(0, 0, 0, 0.1); */
+    min-width: max-content;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+
+.navigation_dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:hover {
+    text-decoration: none;
+    outline: transparent !important;
+    /*box-shadow: 0 0 0 0.25rem;*/
+}
+
+button:focus:not(:focus-visible) {
+    outline: transparent !important;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: transparent !important;
+    /*box-shadow: 0 0 0 0.25rem;*/
+}
+
+.mr-auto {
+    margin-top: 0px;
+    margin-left: 100px;
+}
+
+.navbg {
+    background-color: #00405d !important;
+}
+
+.navbg_white {
+    background-color: #fff !important;
+}
+
+.navtopmargin {
+    margin-top: 160px !important;
+}
+
+.confhead {
+    color: #840606;
+    font-family: 'Adamina', serif;
+    /* font-family: 'Gideon Roman', cursive; */
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.conftitle {
+    color: #840606;
+    font-family: 'Adamina', serif;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.topintitutename {
+    font-family: "Poppins", Sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    text-align: left;
+    color: #000;
+}
+
+.nitlogo {
+    width: 130px;
+    height: auto;
+}
+
+.justify_content_center {
+    display: flex;
+    justify-content: center !important;
+}
+
+.justify_content_right {
+    display: flex;
+    justify-content: right !important;
+}
+
+.justify_content_left {
+    display: flex;
+    justify-content: left !important;
+}
+
+.latestnewhead {
+    font-family: 'Gideon Roman', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff !important;
+    text-align: center;
+    background-color: #00405d;
+    height: 50px;
+    align-items: center;
+}
+
+.latestnewtext {
+    font-family: 'Gideon Roman', cursive;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0000ff !important;
+    text-align: left;
+}
+
+.latestnewborderbelow {
+    border-bottom: 1px solid #000;
+}
+
+.keynotespeakerhead {
+    font-family: 'Gideon Roman', cursive;
+    font-size: 24px;
+    font-weight: bold;
+    color: #0000aa !important;
+    text-align: left;
+}
+
+.keynotename {
+    font-family: "Poppins", Sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    color: #000;
+}
+
+.kenoteimg {
+    width: 150px;
+    height: auto;
+}
+
+.importantdatetext {
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    color: #00405d;
+}
+
+.keynotename {
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: #000;
+}
+
+.homeabout {
+    color: #840606;
+    font-family: 'Adamina', serif;
+    font-size: 21px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.homeabouttext {
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.footerborder {
+    border-bottom: 2px solid #00405d;
+}
+
+.footercopyright {
+    color: #00405d;
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.footerintitutename {
+    color: #5a5c5c;
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.confhistorytop {
+    color: #231a93;
+    font-family: "Poppins", Sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.historysubheading {
+    color: #840606;
+    font-family: 'Adamina', serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.confhistorytext {
+    color: #231a93;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.commiteeheading {
+    color: #069;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.commiteemembername {
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+}
