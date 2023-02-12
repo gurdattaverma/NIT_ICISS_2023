@@ -47,24 +47,24 @@ const Navigation = () => {
                             <Link to="/Committees" className='nav-link mt-0'>Commitees</Link>
                             <Link to="/" className="nav-link navigation_dropdown mt-0" >Calls{""}
                                 <div className="dropdown-content">
-                                    <Link to="/" className="nav-link dropdown_menu">Paper</Link>
-                                    <Link to="/" className="nav-link">Industry Paper</Link>
-                                    <Link to="/" className="nav-link">Tutorials</Link>
-                                    <Link to="/" className="nav-link">PhD Forum</Link>
+                                    <Link to="/Paper" className="nav-link dropdown_menu">Paper</Link>
+                                    <Link to="/Industrypaper" className="nav-link">Industry Paper</Link>
+                                    <Link to="/Tutorials" className="nav-link">Tutorials</Link>
+                                    <Link to="/PhDForums" className="nav-link">PhD Forum</Link>
                                 </div>
                             </Link>
                             <Link to="/" className="nav-link navigation_dropdown mt-0" >Papers{""}
                                 <div className="dropdown-content">
-                                    <Link to="/" className="nav-link dropdown_menu">Camera-Ready</Link>
-                                    <Link to="/" className="nav-link">Accepted Paper</Link>
+                                    <Link to="/Cameraready" className="nav-link dropdown_menu">Camera-Ready</Link>
+                                    <Link to="/Acceptedpaper" className="nav-link">Accepted Paper</Link>
                                 </div>
                             </Link>
                             <Link to="/" className="nav-link navigation_dropdown mt-0" >Programme{""}
                                 <div className="dropdown-content">
-                                    <Link to="/" className="nav-link dropdown_menu">Main Conference</Link>
-                                    <Link to="/" className="nav-link">Tutorials</Link>
-                                    <Link to="/" className="nav-link">PhD Forum</Link>
-                                    <Link to="/" className="nav-link">Keynote Address</Link>
+                                    <Link to="/Program" className="nav-link dropdown_menu">Main Conference</Link>
+                                    <Link to="/events-tutorials" className="nav-link">Tutorials</Link>
+                                    <Link to="/events-Phdforum" className="nav-link">PhD Forum</Link>
+                                    <Link to="/Keynote" className="nav-link">Keynote Address</Link>
                                 </div>
                             </Link>
                             <Link to="/" className="nav-link navigation_dropdown mt-0" >Attending{""}

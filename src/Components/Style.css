@@ -304,3 +304,115 @@ button:focus:not(:focus-visible) {
     font-weight: 400;
     text-align: left;
 }
+
+.paperheading {
+    color: #97222B;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.papertopicname {
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.papertopicnameblue {
+    color: blue;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.industrypaperheading {
+    color: #00406d;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.mainprogrambox {
+    border: 2px solid #000;
+}
+
+.mainprogramname {
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.mainprogrammainheading {
+    background-color: #0000FF;
+    color: #fff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: left;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.mainprogrammainheading2 {
+    background-color: #5B9BD5;
+    color: #fff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: left;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+
+.mainprogramlunchbg {
+    background-color: #F4CCCC;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.mainprogramtext {
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.mainprogramdinnerbg {
+    background-color: #FCE5CD;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.keynotedetailbtn {
+    border-radius: 5px;
+    background-color: #00405d;
+    color: white;
+    border-color: #00405d;
+    padding: 5px;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+}

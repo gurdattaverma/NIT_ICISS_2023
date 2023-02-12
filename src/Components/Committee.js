@@ -21,7 +21,7 @@ const Committee = () => {
                 <Col xs={1}></Col>
                 <Col>
                     <Row className="commiteeheading">Patron</Row>
-                    <ul className="commiteemembername ">
+                    <ul className="commiteemembername " type="square">
                         <li className="mt-2"><b> K. N. Satyanarayana</b>, <i>Director, IIT Tirupati, India</i></li>
                     </ul>
                 </Col>
@@ -32,7 +32,7 @@ const Committee = () => {
                 <Col xs={1}></Col>
                 <Col>
                     <Row className="commiteeheading">Steering Committee </Row>
-                    <ul className="commiteemembername ">
+                    <ul className="commiteemembername " type="square">
                         <li className="mt-2"><b> Aditya Bagchi</b>, <i>ISI Kolkota, India</i></li>
                         <li className="mt-2"><b> Arun Kumar Majumdar</b>, <i>IIT Kharagpur, India</i></li>
                         <li className="mt-2"><b> Atul Prakash</b>, <i>University of Michigan, United States</i></li>
@@ -52,7 +52,7 @@ const Committee = () => {
                 <Col xs={1}></Col>
                 <Col>
                     <Row className="commiteeheading">General Chair </Row>
-                    <ul className="commiteemembername ">
+                    <ul className="commiteemembername " type="square">
                         <li className="mt-2"><b>  Shyamasundar. R.K.</b>, <i>IIT Bombay, India</i></li>
                     </ul>
                 </Col>
@@ -63,7 +63,7 @@ const Committee = () => {
                 <Col xs={1}></Col>
                 <Col>
                     <Row className="commiteeheading">TPC Chairs</Row>
-                    <ul className="commiteemembername ">
+                    <ul className="commiteemembername " type="square">
                         <li className="mt-2"><b>Surya Nepal</b>, <i>CSIRO Australia’s National Science Agency, Australia</i></li>
                         <li className="mt-2"><b>Venkata Ramana Badarla</b>, <i>IIT Tirupati, India</i></li>
                     </ul>
@@ -75,7 +75,7 @@ const Committee = () => {
                 <Col xs={1}></Col>
                 <Col>
                     <Row className="commiteeheading">Tutorials and PhD Forum Chair</Row>
-                    <ul className="commiteemembername ">
+                    <ul className="commiteemembername " type="square">
                         <li className="mt-2"><b>Jayanarayan T T</b>, <i>IIT Tirupati, India</i></li>
                         <li className="mt-2"><b>Shachee Mishra</b>, <i>IBM Research Lab, India</i></li>
                         <li className="mt-2"><b>Vishwas Patil</b>, <i>IIT Bombay, India</i></li>
@@ -88,7 +88,7 @@ const Committee = () => {
                 <Col xs={1}></Col>
                 <Col>
                     <Row className="commiteeheading">Publicity and Sponsorship Chairs</Row>
-                    <ul className="commiteemembername ">
+                    <ul className="commiteemembername " type="square">
                         <li className="mt-2"><b>Kalidas Yeturu</b>, <i>IIT Tirupati, India</i></li>
                         <li className="mt-2"><b>Manjul Verma</b>, <i>AI & Cloud [24]7.ai, India</i></li>
                     </ul>
@@ -100,7 +100,7 @@ const Committee = () => {
                 <Col xs={1}></Col>
                 <Col>
                     <Row className="commiteeheading">Local Organizing committee</Row>
-                    <ul className="commiteemembername ">
+                    <ul className="commiteemembername " type="square">
                         <li className="mt-2"><b> Ajin J George</b>, <i>IIT Tirupati, India</i></li>
                         <li className="mt-2"><b> Anil Kapoor</b>, <i>IIT Tirupati, India</i></li>
                         <li className="mt-2"><b> Mahendran V</b>, <i>IIT Tirupati, India</i></li>
@@ -118,7 +118,7 @@ const Committee = () => {
                 <Col xs={1}></Col>
                 <Col>
                     <Row className="commiteeheading">Technical Programme Committee</Row>
-                    <ul className="commiteemembername ">
+                    <ul className="commiteemembername " type="square">
                         <li className="mt-2"><b> Adwait Nadkarni</b>, <i>College of William and Mary, USA</i></li>
                         <li className="mt-2"><b> Anoop Singhal</b>, <i>NIST, USA</i></li>
                         <li className="mt-2"><b> Atul Prakash</b>, <i>University of Michigan, USA</i></li>
@@ -136,7 +136,7 @@ const Committee = () => {
                 <Col xs={1}></Col>
                 <Col>
                     <Row className="commiteeheading">Website Design Committee</Row>
-                    <ul className="commiteemembername ">
+                    <ul className="commiteemembername " type="square">
                         <li className="mt-2"><b>Jayaprakash V</b>, <i>IIT Tirupati, India</i></li>
                         <li className="mt-2"><b>Nagarajan R</b>, <i>IIT Tirupati, India</i></li>
                     </ul>
