@@ -19,7 +19,7 @@ const Homepage = () => {
             </Row>
             <Row className="mt-5">
                 <Col xs={1}></Col>
-                <Col sm={7}>
+                <Col sm={7} className="mainprogrambox mt-3">
                     <Carousel fade className="">
                         <Carousel.Item interval='2000' >
                             <img

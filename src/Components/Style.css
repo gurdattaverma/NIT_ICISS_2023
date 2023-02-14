@@ -3,6 +3,7 @@ body {
     width: 100%;
     height: auto;
     overflow-x: hidden !important;
+    background: linear-gradient(130deg, #f8d8cf, #a4bff1 100%);
 }
 
 a {
