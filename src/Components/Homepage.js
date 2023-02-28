@@ -6,6 +6,16 @@ import nitimg1 from "./Images/nit1.jpg"
 import nitimg2 from "./Images/nit2.jpg"
 import nitimg3 from "./Images/nit3.jpg"
 import nitimg4 from "./Images/nit4.jpg"
+import tourism1 from "./Images/Tourism/1.jpg"
+import tourism2 from "./Images/Tourism/2.jpg"
+import tourism3 from "./Images/Tourism/3.jpg"
+import tourism4 from "./Images/Tourism/4.jpg"
+import tourism5 from "./Images/Tourism/5.jpg"
+import tourism6 from "./Images/Tourism/6.jpg"
+import tourism7 from "./Images/Tourism/7.jpg"
+import tourism8 from "./Images/Tourism/8.jpg"
+import tourism9 from "./Images/Tourism/9.jpg"
+import tourism10 from "./Images/Tourism/10.jpg"
 import newgif from "./Images/new.gif"
 import dummypic from "./Images/dummypic.png"
 import { FaCalendarAlt } from "react-icons/fa"
@@ -190,19 +200,19 @@ const Homepage = () => {
                         <Col xs={1} className="importantdatetext">
                             <FaCalendarAlt />
                         </Col>
-                        <Col className="importantdatetext">Submission Deadline: Jul 18, 2023 </Col>
+                        <Col className="importantdatetext">Submission Deadline: Jul 20, 2023 </Col>
                     </Row>
                     <Row className="latestnewborderbelow mt-3" >
                         <Col xs={1} className="importantdatetext">
                             <FaCalendarAlt />
                         </Col>
-                        <Col className="importantdatetext">Acceptance Notification: Oct 03, 2023 </Col>
+                        <Col className="importantdatetext">Acceptance Notification: Sep 15, 2023 </Col>
                     </Row>
                     <Row className="latestnewborderbelow mt-3" >
                         <Col xs={1} className="importantdatetext">
                             <FaCalendarAlt />
                         </Col>
-                        <Col className="importantdatetext">Camera Ready: Oct 26, 2023</Col>
+                        <Col className="importantdatetext">Camera Ready: Sep 25, 2023</Col>
                     </Row>
                     <Row className="latestnewborderbelow mt-3" >
                         <Col xs={1} className="importantdatetext">
@@ -213,6 +223,77 @@ const Homepage = () => {
                     <Row className="latestnewhead justify_content_center  mt-5">Sponsorships</Row>
                     <Row className="latestnewhead justify_content_center  mt-5">Publishing Partner</Row>
                     <Row className="latestnewhead justify_content_center  mt-5">Tourist Attractions</Row>
+                    <Row className="mt-3">
+                    <a href="https://www.chhattisgarhtourism.in/" target="_blank">
+                        <Carousel fade className="">
+                            <Carousel.Item interval='2000' >
+                                <a href="https://www.chhattisgarhtourism.in/">
+                                    <img
+                                        className="d-block w-100"
+                                        src={tourism3}
+                                        alt="First slide"
+                                    />
+                                </a>
+                            </Carousel.Item>
+                            <Carousel.Item interval='2000' >
+                                <img
+                                    className="d-block w-100"
+                                    src={tourism4}
+                                    alt=""
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item interval='2000' >
+                                <img
+                                    className="d-block w-100"
+                                    src={tourism5}
+                                    alt=""
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item interval='2000' >
+                                <img
+                                    className="d-block w-100"
+                                    src={tourism6}
+                                    alt=""
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item interval='2000' >
+                                <img
+                                    className="d-block w-100"
+                                    src={tourism2}
+                                    alt=""
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item interval='2000' >
+                                <img
+                                    className="d-block w-100"
+                                    src={tourism8}
+                                    alt=""
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item interval='2000' >
+                                <img
+                                    className="d-block w-100"
+                                    src={tourism9}
+                                    alt=""
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item interval='2000' >
+                                <img
+                                    className="d-block w-100"
+                                    src={tourism10}
+                                    alt=""
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item interval='2000' >
+                                <img
+                                    className="d-block w-100"
+                                    src={tourism1}
+                                    alt=""
+                                />
+                            </Carousel.Item>
+                        </Carousel>
+                        </a>
+                    </Row>
                 </Col>
                 <Col xs={1}></Col>
             </Row>

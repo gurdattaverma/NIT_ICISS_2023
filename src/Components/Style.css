@@ -69,7 +69,8 @@ a {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #00405d;
+    /* background-color: #00405d; */
+    background-color: #0c1862;
     /* color: rgba(0, 0, 0, 0.1); */
     min-width: max-content;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -114,7 +115,8 @@ button:focus:not(:focus-visible) {
 }
 
 .navbg {
-    background-color: #00405d !important;
+    /* background-color: #00405d !important; */
+    background-color: #0c1862  !important;
 }
 
 .navbg_white {
@@ -174,7 +176,8 @@ button:focus:not(:focus-visible) {
     font-weight: bold;
     color: #fff !important;
     text-align: center;
-    background-color: #00405d;
+    /* background-color: #00405d; */
+    background-color: #0c1862 ;
     height: 50px;
     align-items: center;
 }
@@ -416,4 +419,63 @@ button:focus:not(:focus-visible) {
     font-size: 15px;
     font-weight: 400;
     text-align: center;
+}
+
+.regtrationtopoptions {
+    color: blue;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: justify;
+    cursor: pointer;
+  }
+
+  .regtrationoptionshead {
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .regtrationtablehead {
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    border: 1px solid #9d9c9c;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .regtrationtabletext {
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: left;
+    border: 1px solid #9d9c9c;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .visatxtred {
+    color: red;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.accomodationboldtext {
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: justify;
 }

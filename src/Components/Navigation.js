@@ -69,11 +69,11 @@ const Navigation = () => {
                             </Link>
                             <Link to="/" className="nav-link navigation_dropdown mt-0" >Attending{""}
                                 <div className="dropdown-content">
-                                    <Link to="/" className="nav-link dropdown_menu">Registration</Link>
-                                    <Link to="/" className="nav-link">Visa</Link>
-                                    <Link to="/" className="nav-link">Travel & Venue</Link>
-                                    <Link to="/" className="nav-link">Accomodation</Link>
-                                    <Link to="/" className="nav-link">Contact</Link>
+                                    <Link to="/Registration" className="nav-link dropdown_menu">Registration</Link>
+                                    <Link to="/Visa" className="nav-link">Visa</Link>
+                                    <Link to="/Travel" className="nav-link">Travel & Venue</Link>
+                                    <Link to="/Accomodation" className="nav-link">Accomodation</Link>
+                                    <Link to="/Contact" className="nav-link">Contact</Link>
                                 </div>
                             </Link>
                             <Link to="/" className='nav-link mt-0'>Gallery</Link>

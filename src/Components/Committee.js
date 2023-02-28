@@ -22,7 +22,7 @@ const Committee = () => {
                 <Col>
                     <Row className="commiteeheading">Patron</Row>
                     <ul className="commiteemembername " type="square">
-                        <li className="mt-2"><b> K. N. Satyanarayana</b>, <i>Director, IIT Tirupati, India</i></li>
+                    <li className="mt-2"><b>AB Soni</b>, <i>Director, NIT Raipur, India</i></li>
                     </ul>
                 </Col>
                 <Col xs={1}></Col>
@@ -31,18 +31,14 @@ const Committee = () => {
             <Row className="mt-3">
                 <Col xs={1}></Col>
                 <Col>
-                    <Row className="commiteeheading">Steering Committee </Row>
+                    <Row className="commiteeheading">Advisory Steering Committee</Row>
                     <ul className="commiteemembername " type="square">
-                        <li className="mt-2"><b> Aditya Bagchi</b>, <i>ISI Kolkota, India</i></li>
-                        <li className="mt-2"><b> Arun Kumar Majumdar</b>, <i>IIT Kharagpur, India</i></li>
-                        <li className="mt-2"><b> Atul Prakash</b>, <i>University of Michigan, United States</i></li>
-                        <li className="mt-2"><b> Chandan Mazumdar</b>, <i>Jadavpur University, India</i></li>
-                        <li className="mt-2"><b> Janakiram. D</b>, <i>IDRBT, India</i></li>
+                        <li className="mt-2"><b> Venu Govindaraju</b>, <i>Univ of Buffalo </i></li>
+                        <li className="mt-2"><b> Sushil Jajodia</b>, <i>George Mason Univ</i></li>
+                        <li className="mt-2"><b> Somesh Jha</b>, <i>Univ of Wisconsin</i></li>
+                        <li className="mt-2"><b> Atul Prakash</b>, <i> Univ of Michigan</i></li>
                         <li className="mt-2"><b> Pierangela Samarati</b>, <i>University of Milan, Italy</i></li>
-                        <li className="mt-2"><b> Shyamasundar. R.K.</b>, <i>IIT Bombay, India</i></li>
-                        <li className="mt-2"><b> Somesh Jha</b>, <i>University of Wisconsin, United States</i></li>
-                        <li className="mt-2"><b> Sushil Jajodia</b>, <i>George Mason University, United States</i></li>
-                        <li className="mt-2"><b> Venu Govindaraju</b>, <i>SUNY, United States</i></li>
+                        <li className="mt-2"><b> R.K. Shyamasundar</b>, <i>IIT Bombay, India</i></li>
                     </ul>
                 </Col>
                 <Col xs={1}></Col>
@@ -53,7 +49,7 @@ const Committee = () => {
                 <Col>
                     <Row className="commiteeheading">General Chair </Row>
                     <ul className="commiteemembername " type="square">
-                        <li className="mt-2"><b>  Shyamasundar. R.K.</b>, <i>IIT Bombay, India</i></li>
+                        <li className="mt-2"><b> R.K. Shyamasundar</b>, <i>IIT Bombay, India</i></li>
                     </ul>
                 </Col>
                 <Col xs={1}></Col>
@@ -62,10 +58,10 @@ const Committee = () => {
             <Row className="mt-3">
                 <Col xs={1}></Col>
                 <Col>
-                    <Row className="commiteeheading">TPC Chairs</Row>
+                    <Row className="commiteeheading">Technical Program Chairs</Row>
                     <ul className="commiteemembername " type="square">
-                        <li className="mt-2"><b>Surya Nepal</b>, <i>CSIRO Australia’s National Science Agency, Australia</i></li>
-                        <li className="mt-2"><b>Venkata Ramana Badarla</b>, <i>IIT Tirupati, India</i></li>
+                        <li className="mt-2"><b>V Muthukkumarasamy</b>, <i>Griffith Univ</i></li>
+                        <li className="mt-2"><b>Sithu D Sudarsan</b>, <i>CDAC</i></li>
                     </ul>
                 </Col>
                 <Col xs={1}></Col>
@@ -74,10 +70,47 @@ const Committee = () => {
             <Row className="mt-3">
                 <Col xs={1}></Col>
                 <Col>
-                    <Row className="commiteeheading">Tutorials and PhD Forum Chair</Row>
+                    <Row className="commiteeheading">Organising Executive   Committee</Row>
                     <ul className="commiteemembername " type="square">
-                        <li className="mt-2"><b>Jayanarayan T T</b>, <i>IIT Tirupati, India</i></li>
-                        <li className="mt-2"><b>Shachee Mishra</b>, <i>IBM Research Lab, India</i></li>
+                        <li className="mt-2"><b>Venkata Badarla</b>, <i>IIT Tirupati, India</i></li>
+                        <li className="mt-2"><b>Neminath Hubbali</b>, <i>IIT Indore, India</i></li>
+                        <li className="mt-2"><b>Chandrashekar Jatoth</b>, <i>NIT Raipur, India</i></li>
+                        <li className="mt-2"><b>Jayaprakash Kar</b>, <i>LNMIIT</i></li>
+                        <li className="mt-2"><b>Vishwas Patil</b>, <i>IIT Bombay, India</i></li>
+                        <li className="mt-2"><b>Somnath Tripathy</b>, <i>IIT Patna, India</i></li>
+                    </ul>
+                </Col>
+                <Col xs={1}></Col>
+            </Row>
+
+            {/* <Row className="mt-3">
+                <Col xs={1}></Col>
+                <Col>
+                    <Row className="commiteeheading">Patron</Row>
+                    <ul className="commiteemembername " type="square">
+                        <li className="mt-2"><b>AB Soni</b>, <i>Director, NIT Raipur, India</i></li>
+                    </ul>
+                </Col>
+                <Col xs={1}></Col>
+            </Row> */}
+
+            <Row className="mt-3">
+                <Col xs={1}></Col>
+                <Col>
+                    <Row className="commiteeheading">Organizing Chair</Row>
+                    <ul className="commiteemembername " type="square">
+                    <li className="mt-2"><b>Chandrashekar Jatoth</b>, <i>NIT Raipur, India</i></li>
+                    </ul>
+                </Col>
+                <Col xs={1}></Col>
+            </Row>
+
+            <Row className="mt-3">
+                <Col xs={1}></Col>
+                <Col>
+                    <Row className="commiteeheading">Tutorial, PhD Forum Chairs</Row>
+                    <ul className="commiteemembername " type="square">
+                        <li className="mt-2"><b>Shachee Mishra</b>, <i>IBM Research</i></li>
                         <li className="mt-2"><b>Vishwas Patil</b>, <i>IIT Bombay, India</i></li>
                     </ul>
                 </Col>
@@ -87,10 +120,11 @@ const Committee = () => {
             <Row className="mt-3">
                 <Col xs={1}></Col>
                 <Col>
-                    <Row className="commiteeheading">Publicity and Sponsorship Chairs</Row>
+                    <Row className="commiteeheading">Demo/Industry Track Chairs</Row>
                     <ul className="commiteemembername " type="square">
-                        <li className="mt-2"><b>Kalidas Yeturu</b>, <i>IIT Tirupati, India</i></li>
-                        <li className="mt-2"><b>Manjul Verma</b>, <i>AI & Cloud [24]7.ai, India</i></li>
+                        <li className="mt-2"><b>Praveen Gauravaram</b>, <i>TCS</i></li>
+                        <li className="mt-2"><b>Amrendra Kumar</b>, <i>DRDO</i></li>
+                        <li className="mt-2"><b>Vinod Panicker</b>, <i>Wipro</i></li>
                     </ul>
                 </Col>
                 <Col xs={1}></Col>
@@ -99,46 +133,10 @@ const Committee = () => {
             <Row className="mt-3">
                 <Col xs={1}></Col>
                 <Col>
-                    <Row className="commiteeheading">Local Organizing committee</Row>
+                    <Row className="commiteeheading">Publicity Chairs</Row>
                     <ul className="commiteemembername " type="square">
-                        <li className="mt-2"><b> Ajin J George</b>, <i>IIT Tirupati, India</i></li>
-                        <li className="mt-2"><b> Anil Kapoor</b>, <i>IIT Tirupati, India</i></li>
-                        <li className="mt-2"><b> Mahendran V</b>, <i>IIT Tirupati, India</i></li>
-                        <li className="mt-2"><b> Raja S</b>, <i>IIT Tirupati, India</i></li>
-                        <li className="mt-2"><b> Sridhar Chimalakonda</b>, <i>IIT Tirupati, India</i></li>
-                        <li className="mt-2"><b> Ramakrishna G</b>, <i>IIT Tirupati, India</i></li>
-                        <li className="mt-2"><b> Vamshi P</b>, <i>IIT Tirupati, India</i></li>
-                        <li className="mt-2"><b> Venkata Ramana Badarla (Chair)</b>, <i>IIT Tirupati, India</i></li>
-                    </ul>
-                </Col>
-                <Col xs={1}></Col>
-            </Row>
-
-            <Row className="mt-3">
-                <Col xs={1}></Col>
-                <Col>
-                    <Row className="commiteeheading">Technical Programme Committee</Row>
-                    <ul className="commiteemembername " type="square">
-                        <li className="mt-2"><b> Adwait Nadkarni</b>, <i>College of William and Mary, USA</i></li>
-                        <li className="mt-2"><b> Anoop Singhal</b>, <i>NIST, USA</i></li>
-                        <li className="mt-2"><b> Atul Prakash</b>, <i>University of Michigan, USA</i></li>
-                        <li className="mt-2"><b> Bimal Roy</b>, <i>ISI Kolkata, India</i></li>
-                        <li className="mt-2"><b> Carminati Michele</b>, <i>Politecnico di Milano, Italy</i></li>
-                        <li className="mt-2"><b> Chaitanya Kumar</b>, <i>IBM Research, Singapore</i></li>
-                        <li className="mt-2"><b> Chamikara Mahawaga Arachchige</b>, <i>CSIRO’s Data61, Australia</i></li>
-                        <li className="mt-2"><b> Chittaranjan Hota</b>, <i>BITS Hyderabad, India</i></li>
-                    </ul>
-                </Col>
-                <Col xs={1}></Col>
-            </Row>
-
-            <Row className="mt-3">
-                <Col xs={1}></Col>
-                <Col>
-                    <Row className="commiteeheading">Website Design Committee</Row>
-                    <ul className="commiteemembername " type="square">
-                        <li className="mt-2"><b>Jayaprakash V</b>, <i>IIT Tirupati, India</i></li>
-                        <li className="mt-2"><b>Nagarajan R</b>, <i>IIT Tirupati, India</i></li>
+                    <li className="mt-2"><b>Vishwas Patil</b>, <i>IIT Bombay, India</i></li>
+                    <li className="mt-2"><b>Balaji Rajendran</b>, <i>CDAC</i></li>
                     </ul>
                 </Col>
                 <Col xs={1}></Col>

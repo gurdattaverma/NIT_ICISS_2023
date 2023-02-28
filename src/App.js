@@ -14,6 +14,11 @@ import Mainconference from './Components/Mainconference';
 import Tutorialprogram from './Components/Tutorialprogram';
 import Phdforumprogram from './Components/Phdforumprogram';
 import Keynote from './Components/Keynote';
+import Registration from './Components/Registeration';
+import Visa from './Components/Visa';
+import Travel from './Components/Travel';
+import Accomodation from './Components/Accomodation';
+import Contact from './Components/Contact';
 
 function App() {
   return (
@@ -34,7 +39,11 @@ function App() {
             <Route exact path="/events-tutorials" element={<Tutorialprogram />} />
             <Route exact path="/events-Phdforum" element={<Phdforumprogram />} />
             <Route exact path="/Keynote" element={<Keynote />} />
-
+            <Route exact path="/Registration" element={<Registration />} />
+            <Route exact path="/Visa" element={<Visa />} />
+            <Route exact path="/Travel" element={<Travel />} />
+            <Route exact path="/Accomodation" element={<Accomodation />} />
+            <Route exact path="/Contact" element={<Contact />} />
           </Routes>
         </Router>
       </Container>

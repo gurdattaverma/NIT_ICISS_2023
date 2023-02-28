@@ -85,7 +85,7 @@ const History = () => {
                     <a href="https://www.iitp.ac.in/~iciss2021/" target="_blank">
                         <Row className="confhistorytext mt-2">ICISS 2021 - IIT Patna </Row>
                     </a>
-                    <a href="https://icissconf.org/history.html" target="_blank">
+                    <a href="https://icissconf.org/" target="_blank">
                         <Row className="confhistorytext mt-2">ICISS 2022 - IIT Tirupati </Row>
                     </a>
 
