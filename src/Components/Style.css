@@ -180,6 +180,7 @@ button:focus:not(:focus-visible) {
     background-color: #0c1862 ;
     height: 50px;
     align-items: center;
+    border-radius: 15px;
 }
 
 .latestnewtext {
@@ -213,6 +214,7 @@ button:focus:not(:focus-visible) {
 .kenoteimg {
     width: 150px;
     height: auto;
+    border-radius: 50%;
 }
 
 .importantdatetext {
@@ -342,7 +344,11 @@ button:focus:not(:focus-visible) {
 }
 
 .mainprogrambox {
-    border: 2px solid #000;
+    border: 15px solid #000;
+}
+
+.tourismbox {
+    border: 15px solid #fff;
 }
 
 .mainprogramname {
